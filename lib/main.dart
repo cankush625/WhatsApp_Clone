@@ -11,7 +11,7 @@ void main() {
 class BizApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    FlutterStatusbarcolor.setStatusBarColor(Colors.indigo[800]);
+    FlutterStatusbarcolor.setStatusBarColor(Color(0xFF023d36));
     return WhatsApp();
   }
 }
